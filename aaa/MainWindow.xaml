@@ -1,0 +1,13 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:menu="clr-namespace:menu;assembly=menu" xmlns:candy="clr-namespace:candy;assembly=candy" x:Class="aaa.MainWindow"
+        Title="MainWindow" Height="395" Width="763">
+    <Grid>
+
+        <menu:UserControl1 HorizontalAlignment="Left" Margin="52,10,0,0" VerticalAlignment="Top"/>
+
+        <candy:UserControl1 HorizontalAlignment="Left" Margin="52,155,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
